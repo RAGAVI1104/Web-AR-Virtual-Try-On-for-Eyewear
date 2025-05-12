@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+video, canvas {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
